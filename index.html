@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata & SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Jacques Alessandro">
+    <title>Jacques Alessandro | Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="100">
+
+    <!-- STAR / GALAXY BACKGROUND -->
+    <div class="galaxy-background">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3 transition-all neon-border-bottom" id="mainNav">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold fs-3 tracking-wide" href="#">JA | Portfolio<span class="text-primary glow-text">.</span></a>
+            
+            <!-- Mobile Menu Button -->
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- NAVIGATION LINKS -->
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-center gap-3">
+                    <li class="nav-item"><a class="nav-link nav-hover-effect" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link nav-hover-effect" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link nav-hover-effect" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link nav-hover-effect" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link nav-hover-effect" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero d-flex align-items-center position-relative">
+        <div class="container position-relative z-2">
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+                
+                <!-- HERO TEXT -->
+                <div class="col-lg-7 text-center text-lg-start mt-5 mt-lg-0" data-aos="fade-right" data-aos-duration="1000">
+                    
+                    <!-- Greeting -->
+                    <h4 class="text-primary fw-bold mb-3 tracking-wide glow-text">
+                        HELLO, I'M <span class="wave">👋</span>
+                    </h4>
+
+                    <!-- Name -->
+                    <h1 class="display-3 fw-bold text-white mb-3 glow-text-white lh-1">
+                        Jacques <br> Alessandro
+                    </h1>
+                    
+                    <!-- Typing Animation -->
+                    <h3 class="fw-normal text-gray-300 mb-4 h4">
+                        I am a <span class="text-primary fw-bold glow-text" id="typed-text"></span>
+                    </h3>
+
+                    <!-- Description -->
+                    <p class="lead text-gray-400 mb-5 w-lg-75">
+                        Passionate about sports, eating, and create an interactive and fun experience.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="d-flex justify-content-center justify-content-lg-start gap-3 mb-5">
+                        <a href="#projects" class="btn btn-primary-custom btn-lg px-5 rounded-pill shadow-lg glow-on-hover">View My Work</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg px-5 rounded-pill neon-btn">Contact Me</a>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div class="hero-socials d-flex justify-content-center justify-content-lg-start gap-3">
+                        <a href="https://instagram.com/jacques_alessandro" target="_blank" class="hero-social-btn"><i class="bi bi-instagram"></i></a>
+                        <a href="https://github.com/cococinaa" target="_blank" class="hero-social-btn"><i class="bi bi-github"></i></a>
+                        <a href="https://tiktok.com/@jacques.alessandro" target="_blank" class="hero-social-btn"><i class="bi bi-tiktok"></i></a>
+                        <a href="mailto:jacquesalessandro.ja@gmail.com" class="hero-social-btn"><i class="bi bi-envelope-fill"></i></a>
+                    </div>
+                </div>
+
+                <!-- PROFILE IMAGE -->
+                <div class="col-lg-5 text-center" data-aos="zoom-in" data-aos-duration="1200">
+                    <div class="profile-wrapper floating-animate">
+                        <div class="neon-box-circle mx-auto overflow-hidden">
+                            <!-- Profile Photo -->
+                            <img src="fotoprofiledtw.jpeg" class="profile-img" alt="Jacques Profile">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-6 position-relative">
+        <div class="container position-relative z-2">
+
+            <!-- Section Header -->
+            <div class="row justify-content-center mb-5" data-aos="fade-down">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title fw-bold text-white glow-text-white">About Me</h2>
+                    <div class="divider mx-auto bg-primary mb-3 glow-divider"></div>
+                    <p class="text-gray-300 fst-italic">"Driven by discipline, fueled by coffee, and committed to excellence."</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center g-5">
+
+                <!-- ABOUT TEXT CARD -->
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="neon-card p-5 rounded-4 h-100">
+
+                        <!-- Title -->
+                        <h3 class="fw-bold mb-3 text-white">Who is <span class="text-primary glow-text">Jacques?</span></h3>
+
+                        <!-- Description -->
+                        <p class="text-gray-300 lh-lg">
+                            I am an undergraduate student at <strong>Universitas Pelita Harapan (2024 Intake)</strong>. Born in the digital age (2006), I've always been driven by curiosity—especially in how technology and creativity can blend together.
+                        </p>
+
+                        <p class="text-gray-300 lh-lg">
+                            I'm usually interest about web design, constantly exploring how good visuals and clean interfaces can shape user experiences. Outside the digital world, you'll usually find me on the basketball court or at the gym, pushing myself to grow physically and mentally.
+                        </p>
+
+                        <p class="text-gray-300 lh-lg">
+                            My philosophy is simple: <strong>Consistency beats intensity.</strong> Whether I'm improving my jump shot, sticking to a fitness routine, or refining a layout in Figma, I show up every single day.
+                        </p>
+
+                    </div>
+                </div>
+
+                <!-- ABOUT ICON CARDS -->
+                <div class="col-lg-6">
+                    <div class="row g-3">
+
+                        <!-- Each column is a skill card -->
+                        <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="neon-card h-100 p-4 text-center glow-card-hover" data-tilt>
+                                <i class="bi bi-mortarboard-fill fs-2 text-primary mb-3 d-block glow-icon"></i>
+                                <h5 class="fw-bold text-white">Academic Goal</h5>
+                                <p class="small text-gray-400 mb-0">Targeting <strong>Summa Cum Laude</strong> within <span class="badge neon-badge">3.5 Years</span>.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="neon-card h-100 p-4 text-center glow-card-hover" data-tilt>
+                                <i class="bi bi-code-slash fs-2 text-success mb-3 d-block glow-icon-green"></i>
+                                <h5 class="fw-bold text-white">Web Dev</h5>
+                                <p class="small text-gray-400 mb-0">Building clean, responsive interfaces with HTML, CSS & Bootstrap.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="neon-card h-100 p-4 text-center glow-card-hover" data-tilt>
+                                <i class="bi bi-router-fill fs-2 text-info mb-3 d-block glow-icon-cyan"></i>
+                                <h5 class="fw-bold text-white">Networking</h5>
+                                <p class="small text-gray-400 mb-0">Cisco Packet Tracer, Subnetting, and Network Security enthusiast.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="neon-card h-100 p-4 text-center glow-card-hover" data-tilt>
+                                <i class="bi bi-activity fs-2 text-danger mb-3 d-block glow-icon-red"></i>
+                                <h5 class="fw-bold text-white">Discipline</h5>
+                                <p class="small text-gray-400 mb-0">Applying "Iron Discipline" from the gym to every coding project.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="py-6">
+        <div class="container">
+
+            <!-- Section title -->
+            <h2 class="section-title fw-bold text-center mb-5 text-white glow-text-white">Skills & Interests</h2>
+
+            <div class="row g-4 justify-content-center">
+
+                <!-- Each skill item -->
+                <div class="col-md-3 col-6" data-aos="flip-left" data-aos-delay="100">
+                    <div class="neon-card text-center p-4 h-100 glow-card-hover" data-tilt>
+                        <div class="icon-box neon-icon-box text-danger mx-auto mb-3 glow-icon-red"><i class="bi bi-heart-pulse-fill"></i></div>
+                        <h5 class="fw-bold text-white">Gym Routine</h5>
+                        <p class="small text-gray-400 mt-2">"Forging mental toughness through physical discipline."</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6" data-aos="flip-left" data-aos-delay="200">
+                    <div class="neon-card text-center p-4 h-100 glow-card-hover" data-tilt>
+                        <div class="icon-box neon-icon-box text-warning mx-auto mb-3 glow-icon-yellow"><i class="bi bi-dribbble"></i></div>
+                        <h5 class="fw-bold text-white">Basketball</h5>
+                        <p class="small text-gray-400 mt-2">"Teamwork, strategy, and quick decision making."</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6" data-aos="flip-left" data-aos-delay="300">
+                    <div class="neon-card text-center p-4 h-100 glow-card-hover" data-tilt>
+                        <div class="icon-box neon-icon-box text-primary mx-auto mb-3 glow-icon"><i class="bi bi-palette-fill"></i></div>
+                        <h5 class="fw-bold text-white">UI/UX Design</h5>
+                        <p class="small text-gray-400 mt-2">"Designing intuitive and aesthetic user experiences."</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6" data-aos="flip-left" data-aos-delay="400">
+                    <div class="neon-card text-center p-4 h-100 glow-card-hover" data-tilt>
+                        <div class="icon-box neon-icon-box text-info mx-auto mb-3 glow-icon-cyan"><i class="bi bi-diagram-3-fill"></i></div>
+                        <h5 class="fw-bold text-white">Networking</h5>
+                        <p class="small text-gray-400 mt-2">"Understanding the infrastructure that connects the world."</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="py-6">
+        <div class="container">
+
+            <!-- Section Title -->
+            <h2 class="section-title fw-bold text-center mb-5 text-white glow-text-white">Featured Projects</h2>
+
+            <div class="row g-4">
+
+                <!-- PROJECT CARD 1 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="neon-card rounded-4 overflow-hidden h-100 d-flex flex-column project-card glow-card-hover" data-tilt data-tilt-scale="1.02">
+                        
+                        <!-- Image -->
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80" class="img-fluid" alt="Network">
+
+                            <!-- Hover Overlay -->
+                            <div class="overlay">
+                                <button class="btn btn-primary-custom rounded-pill px-4 fw-bold glow-on-hover" data-bs-toggle="modal" data-bs-target="#networkModal">View Details</button>
+                            </div>
+                        </div>
+
+                        <!-- Description -->
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="fw-bold text-white">Enterprise Network Config</h5>
+                            <p class="text-gray-400 small flex-grow-1">Advanced VLAN & Routing simulation using Cisco Packet Tracer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD 2 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="neon-card rounded-4 overflow-hidden h-100 d-flex flex-column project-card glow-card-hover" data-tilt data-tilt-scale="1.02">
+                        
+                        <div class="project-img-wrapper">
+                            <img src="https://cdn-images.visual-paradigm.com/handbooks/agile-handbook/wireframe/01-youtube-wireframe-example.png" class="img-fluid" alt="Figma">
+                            <div class="overlay">
+                                <button class="btn btn-primary-custom rounded-pill px-4 fw-bold glow-on-hover" data-bs-toggle="modal" data-bs-target="#figmaModal">View Details</button>
+                            </div>
+                        </div>
+
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="fw-bold text-white">Portfolio Wireframe</h5>
+                            <p class="text-gray-400 small flex-grow-1">The blueprint behind this website. High-fidelity prototype in Figma.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD 3 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="neon-card rounded-4 overflow-hidden h-100 d-flex flex-column project-card glow-card-hover" data-tilt data-tilt-scale="1.02">
+
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1555421689-d68471e189f2?w=800&q=80" class="img-fluid" alt="Absensi">
+                            <div class="overlay">
+                                <button class="btn btn-primary-custom rounded-pill px-4 fw-bold glow-on-hover" data-bs-toggle="modal" data-bs-target="#absensiModal">View Details</button>
+                            </div>
+                        </div>
+
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="fw-bold text-white">Attendance System Analysis</h5>
+                            <p class="text-gray-400 small flex-grow-1">Comprehensive analysis (DFD, ERD) for a QR-based attendance system.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-6">
+        <div class="container" data-aos="fade-up">
+
+            <!-- Section Title -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="section-title fw-bold text-white glow-text-white">Get In Touch</h2>
+                    <p class="text-white-50">Have a project or just want to say hi? My inbox is open.</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-lg-8 mx-auto">
+                <form id="contactForm" class="p-4 p-md-5 rounded-4 neon-card position-relative overflow-hidden">
+
+                    <div class="row position-relative z-2">
+
+                        <!-- Name -->
+                        <div class="col-md-6 mb-4">
+                            <label class="form-label fw-bold small text-uppercase text-white-50">Name</label>
+                            <input type="text" class="form-control form-control-lg neon-input" required placeholder="Jacques">
+                        </div>
+
+                        <!-- Email -->
+                        <div class="col-md-6 mb-4">
+                            <label class="form-label fw-bold small text-uppercase text-white-50">Email</label>
+                            <input type="email" class="form-control form-control-lg neon-input" required placeholder="hello@example.com">
+                        </div>
+
+                        <!-- Subject -->
+                        <div class="col-12 mb-4">
+                            <label class="form-label fw-bold small text-uppercase text-white-50">Subject</label>
+                            <input type="text" class="form-control form-control-lg neon-input" required placeholder="Project Collaboration">
+                        </div>
+
+                        <!-- Message -->
+                        <div class="col-12 mb-4">
+                            <label class="form-label fw-bold small text-uppercase text-white-50">Message</label>
+                            <textarea class="form-control form-control-lg neon-input" rows="5" required placeholder="Tell me about your idea..."></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary-custom btn-lg w-100 rounded-pill shadow glow-on-hover">
+                                Send Message <i class="bi bi-send-fill ms-2"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-white py-5 text-center position-relative neon-footer">
+        <div class="container">
+            <h4 class="fw-bold tracking-wide mb-4 glow-text-white">JA | Portfolio.</h4>
+
+            <!-- Footer Social Links -->
+            <div class="d-flex justify-content-center gap-4 mb-4">
+                <a href="https://instagram.com/jacques_alessandro" class="social-link-footer"><i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/cococinaa" class="social-link-footer"><i class="bi bi-github"></i></a>
+                <a href="https://tiktok.com/@jacques.alessandro" class="social-link-footer"><i class="bi bi-tiktok"></i></a>
+                <a href="mailto:jacquesalessandro.ja@gmail.com" class="social-link-footer"><i class="bi bi-envelope"></i></a>
+            </div>
+
+            <p class="small text-white-50 mb-0">&copy; 2024 Jacques Alessandro. Remember Consistency is the key.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL: NETWORK -->
+    <div class="modal fade" id="networkModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content neon-card border-0 rounded-4 overflow-hidden">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title text-white">Enterprise Network Configuration</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body p-4">
+                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80" class="w-100 rounded-3 mb-3 shadow-sm">
+                    <p class="text-gray-300">Detailed simulation involving VLAN segmentation, OSPF, and ACL security protocols implemented on Cisco Packet Tracer.</p>
+                    <a href="#" class="btn btn-primary-custom w-100 rounded-pill glow-on-hover"><i class="bi bi-download"></i> Download .PKT File</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: FIGMA -->
+    <div class="modal fade" id="figmaModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content neon-card border-0 rounded-4 overflow-hidden">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title text-white">Figma Wireframe</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body p-4">
+                    <img src="https://cdn-images.visual-paradigm.com/handbooks/agile-handbook/wireframe/01-youtube-wireframe-example.png" class="w-100 rounded-3 mb-3 shadow-sm">
+                    <p class="text-gray-300">A complete UI/UX process starting from low-fidelity sketches to a high-fidelity interactive prototype.</p>
+                    <a href="#" class="btn btn-outline-light w-100 rounded-pill neon-btn"><i class="bi bi-figma"></i> Open Figma Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: ABSENSI -->
+    <div class="modal fade" id="absensiModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content neon-card border-0 rounded-4 overflow-hidden">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title text-white">Attendance Analysis</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body p-4">
+                    <img src="https://images.unsplash.com/photo-1555421689-d68471e189f2?w=800&q=80" class="w-100 rounded-3 mb-3 shadow-sm">
+                    <p class="text-gray-300">System analysis document covering Flowcharts, DFD (Data Flow Diagrams), and Entity Relationship Diagrams.</p>
+                    <a href="#" class="btn btn-outline-light w-100 rounded-pill neon-btn"><i class="bi bi-file-pdf-fill"></i> Read Proposal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- POPUP THANK YOU -->
+    <div id="thankYouPopup" class="popup-overlay">
+        <div class="popup-content text-center">
+            <div class="popup-icon mb-3"><i class="bi bi-check-lg"></i></div>
+            <h3 class="fw-bold mb-2">Message Sent!</h3>
+            <p class="text-white mb-4 fw-bold">I'll get back to you as soon as possible.</p>
+            <button id="closePopup" class="btn btn-dark rounded-pill px-4 fw-bold">Close</button>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Typed.js Typing Effect -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Vanilla Tilt (3D hover effect) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
